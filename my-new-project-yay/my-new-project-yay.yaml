@@ -1,6 +1,6 @@
 schemaVersion: 3
 meta:
-  sourceVersionId: 01971d51-43e9-7002-b2ef-0cb49914ac7e # DO NOT CHANGE - Hex uses this to match up project versions when reimporting the file
+  sourceVersionId: 01971d54-9879-733d-8045-d2007efe0b3e # DO NOT CHANGE - Hex uses this to match up project versions when reimporting the file
   description: ""
   projectId: 01971d4f-de02-7002-b274-7b6dbdc0eb38 # DO NOT CHANGE - Unique ID of the project from which this file was generated
   title: my new project yay
@@ -38,6 +38,11 @@ cells:
     cellLabel: null
     config:
       source: print('hi again')
+  - cellType: CODE
+    cellId: 01971d54-7289-7669-9316-4b999fcc082a # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: print('third time is the charm')
 appLayout:
   visibleMetadataFields:
     - NAME
@@ -71,6 +76,17 @@ appLayout:
                   hideOutput: false
                   type: CELL
                   cellId: 01971d51-2a4b-7669-9314-aa83b762278a
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 01971d54-7289-7669-9316-4b999fcc082a
                   sharedFilterId: null
                   height: null
                   showLabel: true
